@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html"; charset="utf-8" />
+	<title>JavaScript</title>
+<style type="text/css">
+td{
+	width:200px;
+	padding:3px;
+	background:#ffc;
+}
+</style>
+<script type="text/javascript">
+function reg()
+{
+	var acc=document.getElementById('acc1').value;
+	var exam=document.getElementsByName('exam[]');
+	
+	document.getElementById('acc2').value=acc;
+	var tb1=document.getElementById('tb1');
+	
+	for(var i=0;i< exam.length;i++)
+	{
+		if(!exam[i].checked) continue;
+		var tr_e=document.createElement('tr');
+		var td_e=document.createElement('td');
+		var con=document.createTextNode(exam[i].value);
+		
+		td_e.appendChild(con);
+		tr_e.appendChild(td_e);
+		tb1.appendChild(tr_e);
+		
+	}
+	document.getElementById('result').innerHTML="<b>報名成功</b>";
+}
+</script>
+</head>
+<body >
+身高<input type="text" id="height" /> <br />
+體重<input type="text" id="weight" /> <br />
+ 
+</body >
+</html>

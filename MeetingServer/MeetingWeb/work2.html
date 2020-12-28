@@ -1,0 +1,255 @@
+
+<!doctype html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>工作日誌產生器</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		compare = function(a, b) {return a - b;}
+		rand = function(min, max){
+			return Math.floor(Math.random()*(max-min+1)+min);
+		}
+
+		Array.prototype.swap = function (x, y) {
+			var temp = this[x];
+			this[x] = this[y];
+			this[y] = temp;
+			return this;
+		}
+		Array.prototype.randomAll = function (x, y) {
+			for (var i = 0; i < this.length; i++) {
+				this.swap(i, rand(0, this.length-1));
+			};
+			return this;
+		}
+		Array.prototype.getTop = function (num) {
+			var temp = [];
+			for (var i = 0; i < num; i++) {
+				temp.push(this[i]);
+			};
+			return temp;
+		}
+
+		function controller ($scope) {
+			$scope.rnd = function(min, max){
+				return Math.floor(Math.random()*(max-min+1)+min);
+			}
+			$scope.getRandHours = function(hour_num){
+				sum = 0;
+				hours = [];
+				do {
+					h = $scope.rnd(1, 4);
+					if((hour_num - h) < 0)
+						h = hour_num;
+					hour_num -= h;
+					sum += h;
+					hours.push(h);
+				} while (hour_num > 0);
+				return hours
+			}
+			$scope.getDays = function(){
+				sum = 0;
+				days = [];
+				for (var i = 0, d = 0; i < $scope.days; i++) {
+					day = (i+1);
+					week = new Date($scope.year+"-"+$scope.month+"-"+day).getDay();
+					if(week!=0 && week!=6){
+						days.push(day);
+						days.push(day);
+					}
+				};
+				return days
+			}
+			$scope.generate = function(){
+				all_hour = $scope.getRandHours($scope.hours);
+				all_day = $scope.getDays().randomAll().getTop(hours.length).sort(compare);
+				// console.log(all_hour);
+				// console.log(all_day);
+				$scope.items = [];
+				for (var i = 0; i < all_day.length; i++) {
+					start = ((all_day[i]!=all_day[i-1])?8:13)+rand(0, 4-all_hour[i]);
+					end = parseInt(start)+parseInt(all_hour[i]);
+
+					items = [false, false, false, false, false];
+					items[rand(0, 4)] = true;
+
+					$scope.items.push({
+						'date': $scope.month+"/"+all_day[i],
+						'start_time': start+":00",
+						'end_time': end+':00',
+						'items': items,
+					});
+				};
+			}
+
+			$scope.title = "國立臺北科技大學專題研究計畫兼任助理";
+			$scope.unit = "企業產學";
+			$scope.code = "2026802";
+			$scope.name = "顧客導向之KDS(New Harmony)介面設計與軟體建置 – 子計劃二：New Harmony之系統程式開發";
+			$scope.owner = "郭忠義";
+			$scope.employee = "";
+
+			$scope.date = new Date();
+			$scope.year = $scope.date.getFullYear();
+			$scope.months = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+			$scope.month = $scope.months[5];
+			// $scope.month = $scope.months[$scope.date.getMonth()];
+			$scope.weeks = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+			$scope.days = new Date($scope.year, $scope.month, 0).getDate();
+			$scope.hours = 74;
+
+			$scope.generate();
+
+
+		}
+	</script>
+	<style>
+		@media print {
+			.setting {
+				display: none;
+			}
+		}
+
+		table {
+			border-collapse:collapse;
+			margin-top: 5px;
+			width: 100%;
+		}
+		table.time thead td:last-child{
+			width: 65%;
+		}
+		table.time td {
+			border: 1px solid black;
+		}
+		table.time td input[type='checkbox']{
+			border: 1px solid red;
+		}
+		table.sign {
+			margin: 5px;
+			font-family: 標楷體;
+			font-size: 14pt;
+		}
+		table.tips {
+			margin-top: 10px;
+			font-family: 標楷體;
+			font-size: 12pt;
+			font-weight: bold;
+		}
+		table.tips td{
+			padding: 10px;
+		}
+
+		.setting {
+			font-family: 新細明體;
+			font-size: 12px;
+		}
+		.content {
+			font-family: 標楷體;
+			font-size: 12pt;
+		}
+		.content > h1 {
+			font-size: 18pt;
+		}
+		input[type=checkbox]
+		{
+			display: none;
+		}
+		input[type=checkbox] + label
+		{
+			display: inline-block;
+			width: 15px;
+			height: 15px;
+			background: url('/pic/unck.png');
+			background-size: 15px 15px;
+		}
+
+		input[type=checkbox]:checked + label
+		{
+			background: url('/pic/ck.png');
+			background-size: 15px 15px;
+		}
+	</style>
+</head>
+<body ng-controller="controller">
+	<div class="setting">
+		工作日誌：<input type="text" ng-model="title" /><br />
+		委辦單位：<input type="text" ng-model="unit" /><br />
+		計劃代號：<input type="text" ng-model="code" /><br />
+		計劃名稱：<input type="text" ng-model="name" /><br />
+		計劃主持：<input type="text" ng-model="owner" /><br />
+		工作人員：<input type="text" ng-model="employee" /><br />
+		<hr />
+		<input type="text" ng-model="year" ng-change="generate()" /> 年
+		<select ng-model="month" ng-change="generate()"><option ng-repeat="month in months">{{month}}</option></select> 月 
+		<input type="text" ng-model="hours" ng-change="generate()">
+		<hr />
+	</div>
+
+	<div class="content">
+		<h1>{{title}}{{year-1911}}年{{month}}月工作日誌</h1>
+		委辦單位：<span>{{unit}}</span><br />
+		計劃代號：<span>{{code}}</span><br />
+		計劃名稱：<span>{{name}}</span><br />
+		計劃主持人：<span>{{owner}}</span><br />
+		工作人員：<span>{{employee}}</span><br />
+
+		<table class="time">
+			<thead>
+				<tr>
+					<td>日期</td>
+					<td>開始時間</td>
+					<td>結束時間</td>
+					<td>工作項目</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="item in items">
+				
+					<td>{{item.date}}</td>
+					<td>{{item.start_time}}</td>
+					<td>{{item.end_time}}</td>
+					<td>
+						<span><input id="checkbox_{{$index}}_1" type="checkbox" ng-model="item.items[0]" checked="checked" />
+						<label for="checkbox_{{$index}}_1"></label>資料收集整理  </span>
+						<span><input id="checkbox_{{$index}}_2" type="checkbox" ng-model="item.items[1]" />  
+						<label for="checkbox_{{$index}}_2"></label>資料分析</span>
+						<span><input id="checkbox_{{$index}}_3" type="checkbox" ng-model="item.items[2]" />
+						<label for="checkbox_{{$index}}_3" ></label>專家訪談 </span>
+						<span><input id="checkbox_{{$index}}_4" type="checkbox" ng-model="item.items[6]" />
+						<label for="checkbox_{{$index}}_4"></label>其他(請註明)</span>
+						<br />
+						<span><input id="checkbox_{{$index}}_5" type="checkbox" ng-model="item.items[4]" />
+						<label for="checkbox_{{$index}}_5"></label>訪談結果整理	</span>					
+						<span><input id="checkbox_{{$index}}_6" type="checkbox" ng-model="item.items[5]" />
+						<label for="checkbox_{{$index}}_6"></label>問卷設計  </span>
+						<span><input id="checkbox_{{$index}}_7" type="checkbox" ng-model="item.items[3]" />
+						<label for="checkbox_{{$index}}_7"></label>問卷分析 __________</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table class="sign">
+			<tr>
+				<td>計劃主持人：</td>
+				<td>單位系所主管：</td>
+			</tr>		           
+		</table>
+
+
+		<table class="tips">
+			<tr>
+				<td>註1：計劃案核定前之簽到紀錄，得使用此工作日誌登記；計劃案核定後，請務必於差勤系統簽到。</td>
+			</tr>
+			<tr>
+				<td>註2：於請領計畫助理人員人事費時，須附本表影本作附件。</td>
+			</tr>
+		</table>
+
+	</div>
+
+
+</body>
+</html>

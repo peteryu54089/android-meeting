@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">會議系統</string>
+    <string name="action_settings">Settings</string>
+    <string name="on">開啟</string>
+    <string name="off">關閉</string>
+    <string name="aout_audiotrack">AudioTrack (native)</string>
+    <string name="aout_opensles">OpenSL ES</string>
+    <string-array name="list_items">
+        <item>廣播</item>
+        <item>評分</item>
+        <item>同意</item>
+        <item>序位</item>
+        <item>檔案</item>
+    </string-array>
+        <string name="init_text">text</string>
+
+</resources>

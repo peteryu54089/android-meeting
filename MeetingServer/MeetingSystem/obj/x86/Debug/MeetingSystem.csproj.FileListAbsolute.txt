@@ -1,0 +1,77 @@
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.exe.config
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.exe
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.pdb
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\bin\Debug\Spire.XLS.dll
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\bin\Debug\Spire.XLS.xml
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csprojResolveAssemblyReference.cache
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.FileChooseForm.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.MeetingSystemForm.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.Properties.Resources.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.Rank.RankResultForm.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.RankSourceForm.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.ScoreResultForm.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.ScoreTableForm.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.VoteResultForm.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.VoteSourceForm.resources
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.GenerateResource.Cache
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.exe
+C:\Users\kjy\Desktop\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.pdb
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.exe.config
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.exe
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.pdb
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.exe
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.pdb
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\Spire.XLS.dll
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\Spire.XLS.xml
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csprojResolveAssemblyReference.cache
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.ResolveComReference.cache
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.FileChooseForm.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.MeetingSystemForm.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.Properties.Resources.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.Rank.RankResultForm.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.RankSourceForm.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.ScoreResultForm.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.ScoreTableForm.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.VoteResultForm.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.VoteSourceForm.resources
+C:\Users\haohao\Desktop\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.GenerateResource.Cache
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.exe.config
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.ResolveComReference.cache
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.exe
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.pdb
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.exe
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.pdb
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\Spire.XLS.dll
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\Spire.XLS.xml
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csprojResolveAssemblyReference.cache
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.FileChooseForm.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.MeetingSystemForm.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.Properties.Resources.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.Rank.RankResultForm.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.RankSourceForm.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.ScoreResultForm.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.ScoreTableForm.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.VoteResultForm.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.VoteSourceForm.resources
+C:\Users\haohao\Google 雲端硬碟\NTUT\Lab事務\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.GenerateResource.Cache
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.exe.config
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.exe
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\MeetingSystem.pdb
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\Spire.XLS.dll
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\bin\Debug\Spire.XLS.xml
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csprojAssemblyReference.cache
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.ResolveComReference.cache
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.FileChooseForm.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.MeetingSystemForm.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.Properties.Resources.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.Rank.RankResultForm.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.RankSourceForm.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.ScoreResultForm.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.ScoreTableForm.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.VoteResultForm.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.VoteSourceForm.resources
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.GenerateResource.cache
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.CoreCompileInputs.cache
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.csproj.CopyComplete
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.exe
+C:\Users\peteryu\Downloads\meeting\會議系統\會議系統選票範例\Meeting Server\MeetingSystem\obj\x86\Debug\MeetingSystem.pdb

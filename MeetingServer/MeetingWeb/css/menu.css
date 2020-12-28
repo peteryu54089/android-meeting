@@ -1,0 +1,121 @@
+#jsddm
+{
+    margin: 0;
+    padding: 0;
+}
+
+#jsddm li
+{
+    float: left;
+    list-style: none;
+    font: 12px Tahoma, Arial;
+    
+}
+
+#jsddm li a
+{
+    display: block;
+    background: #324143;
+    padding: 5px 12px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    color: #EAFFED;
+    white-space: nowrap;
+}
+
+#jsddm li a:hover
+{
+    background: #24313C;
+    margin: 0 0 0 0;
+}
+
+#jsddm li ul
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+    border-top: 1px solid white;
+}
+
+#jsddm li ul li
+{
+    float: none;
+    display: inline;
+}
+
+#jsddm li ul li a
+{
+    min-width: 88px;
+    width: auto;
+    background: #A9C251;
+    color: #24313C;
+}
+
+#jsddm li ul li a:hover
+{
+    background: #8EA344;
+}
+
+
+#titlebar
+{
+    margin: 0;
+    padding: 0;
+    text-align: right
+    
+}
+
+#titlebar li
+{
+    float: left;
+    list-style: none;
+    text-align: right;
+    font: 12px Tahoma, Arial;
+    text-align: right;
+     display: inline;
+}
+
+#titlebar li a
+{
+    display: block;
+    padding: 5px 12px;
+    text-decoration: none;
+    border-right: 1px solid white;
+    color: #EAFFED;
+    white-space: nowrap;
+}
+
+#titlebar li a:hover
+{
+    margin: 0 0 0 0;
+}
+
+#titlebar li ul
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    visibility: hidden;
+    border-top: 1px solid white;
+    z-index:1;
+}
+
+#titlebar li ul li
+{
+    float: none;
+    display: inline;
+}
+
+#titlebar li ul li a
+{
+    min-width: 88px;
+    width: auto;
+    background: #A9C251;
+    color: #24313C;
+}
+
+#titlebar li ul li a:hover
+{
+    background: #8EA344;
+}

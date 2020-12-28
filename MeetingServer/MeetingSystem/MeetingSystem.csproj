@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15A07582-D58E-458F-BDEF-FCEDB1A7E979}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MeetingSystem</RootNamespace>
+    <AssemblyName>MeetingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>發行\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Spire.XLS">
+      <HintPath>dll\Spire.XLS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventLog.cs" />
+    <Compile Include="IBackgroundWorker.cs" />
+    <Compile Include="Message\CloseMessageHandler.cs" />
+    <Compile Include="Message\RankMessageHandler.cs" />
+    <Compile Include="Rank\RankResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rank\RankResultForm.Designer.cs">
+      <DependentUpon>RankResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rank\RankResultWriter.cs" />
+    <Compile Include="Rank\RankSourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rank\RankSourceForm.Designer.cs">
+      <DependentUpon>RankSourceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\DataWriter.cs" />
+    <Compile Include="Score\ScoreResultWriter.cs" />
+    <Compile Include="Structure\RankDataItem.cs" />
+    <Compile Include="Structure\RankDataPair.cs" />
+    <Compile Include="Structure\RankSettingDataItem.cs" />
+    <Compile Include="Utils\ExcelUtil.cs" />
+    <Compile Include="File\FileChooseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="File\FileChooseForm.Designer.cs">
+      <DependentUpon>FileChooseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score\ScoreResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\ScoreResultForm.Designer.cs">
+      <DependentUpon>ScoreResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structure\FileDataItem.cs" />
+    <Compile Include="MeetingServer\ImageStreamingServer.cs" />
+    <Compile Include="Message\FileMessageHandler.cs" />
+    <Compile Include="Message\IMessage.cs" />
+    <Compile Include="MeeteinClient\Client.cs" />
+    <Compile Include="MeeteinClient\IClient.cs" />
+    <Compile Include="MeeteinClient\MeetingClient.cs" />
+    <Compile Include="MeeteinClient\MeetingClient.Method.cs" />
+    <Compile Include="MeetingServer\BroadcastServer.cs" />
+    <Compile Include="MeetingServer\MeetingServer.cs" />
+    <Compile Include="MeetingServer\IServer.cs" />
+    <Compile Include="MeetingServer\Server.cs" />
+    <Compile Include="MeetingSystemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MeetingSystemForm.Designer.cs">
+      <DependentUpon>MeetingSystemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message\Message.cs" />
+    <Compile Include="Message\MessagePool.cs" />
+    <Compile Include="Message\ScoreMessageHandler.cs" />
+    <Compile Include="Message\VoteMessageHandler.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structure\ScoreDataItem.cs" />
+    <Compile Include="Structure\ScoreDataPair.cs" />
+    <Compile Include="Structure\ScoreSettingDataItem.cs" />
+    <Compile Include="Score\ScoreTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score\ScoreTableForm.Designer.cs">
+      <DependentUpon>ScoreTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structure\ServerInfo.cs" />
+    <Compile Include="Sync\Adapter.cs" />
+    <Compile Include="Utils\BigEndianBinaryReader.cs" />
+    <Compile Include="Utils\BigEndianBinaryWriter.cs" />
+    <Compile Include="Utils\JsonTool.cs" />
+    <Compile Include="Utils\MjpegWriter.cs" />
+    <Compile Include="Utils\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utils\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Xls2Html.cs" />
+    <Compile Include="Structure\VoteDataItem.cs" />
+    <Compile Include="Structure\VoteDataPair.cs" />
+    <Compile Include="Vote\VoteResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vote\VoteResultForm.Designer.cs">
+      <DependentUpon>VoteResultForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structure\VoteSettingDataItem.cs" />
+    <Compile Include="Vote\VoteResultWriter.cs" />
+    <Compile Include="Vote\VoteSourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vote\VoteSourceForm.Designer.cs">
+      <DependentUpon>VoteSourceForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="File\FileChooseForm.resx">
+      <DependentUpon>FileChooseForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MeetingSystemForm.resx">
+      <DependentUpon>MeetingSystemForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rank\RankResultForm.resx">
+      <DependentUpon>RankResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rank\RankSourceForm.resx">
+      <DependentUpon>RankSourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\ScoreResultForm.resx">
+      <DependentUpon>ScoreResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score\ScoreTableForm.resx">
+      <DependentUpon>ScoreTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vote\VoteResultForm.resx">
+      <DependentUpon>VoteResultForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vote\VoteSourceForm.resx">
+      <DependentUpon>VoteSourceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\MeetingSystem.Message.FileMessageHandler.datasource" />
+    <None Include="Properties\DataSources\MeetingSystem.Message.Message+StatusHandler.datasource" />
+    <None Include="Properties\DataSources\MeetingSystem.Message.RankMessageHandler.datasource" />
+    <None Include="Properties\DataSources\MeetingSystem.Message.ScoreMessageHandler+ScoreMessageMode.datasource" />
+    <None Include="Properties\DataSources\MeetingSystem.Message.ScoreMessageHandler.datasource" />
+    <None Include="Properties\DataSources\MeetingSystem.Message.VoteMessageHandler+VoteMessageMode.datasource" />
+    <None Include="Properties\DataSources\MeetingSystem.Message.VoteMessageHandler.datasource" />
+    <None Include="Properties\DataSources\MeetingSystem.Message.VoteMessageHandler1.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SystemIcon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taipei-Tech-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel1">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

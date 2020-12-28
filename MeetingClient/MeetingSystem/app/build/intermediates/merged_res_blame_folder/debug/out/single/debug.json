@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_msg.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\notification_msg.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_webviewer.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\webviewer.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_score.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\score.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ranking.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\ranking.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_broadcast.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\broadcast.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_item1.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\background_item1.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pdf.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\pdf.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_main.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\activity_meeting_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\background.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_ranklistitem.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\ranklistitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_votelistitem.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\votelistitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_file.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\file.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_scorelistitem.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\scorelistitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_score.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\score.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_vote.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\vote.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\menu_meeting_main.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\menu\\meeting_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_file_explorer.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\file_explorer.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_divider.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\list_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_file_listview.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\file_listview.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lock.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\lock.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_meeting_control.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\activity_meeting_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_content.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\content.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vote.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\vote.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_main.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\main.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\layout_rank.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\layout\\rank.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_item2.xml.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\background_item2.xml"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable_word.png.flat",
+        "source": "C:\\Users\\peteryu\\StudioProjects\\MeetingSystem\\app\\src\\main\\res\\drawable\\word.png"
+    }
+]

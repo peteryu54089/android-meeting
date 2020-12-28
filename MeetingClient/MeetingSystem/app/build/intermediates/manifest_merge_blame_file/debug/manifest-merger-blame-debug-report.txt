@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ntut.mainactivity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="15"
+8-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:8:9-35
+9        android:targetSdkVersion="17" />
+9-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:11:5-81
+11-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:11:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:12:5-67
+12-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:12:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:13:5-80
+13-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:13:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:14:5-79
+14-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:14:22-77
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:15:5-78
+15-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:15:22-76
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:16:5-75
+16-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:17:5-68
+17-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:17:22-65
+18
+19    <application
+19-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:19:5-48:19
+20        android:name="org.videolan.vlc.VLCApplication"
+20-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:20:10-56
+21        android:allowBackup="true"
+21-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:21:9-35
+22        android:debuggable="true"
+23        android:hardwareAccelerated="true"
+23-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:25:9-43
+24        android:icon="@drawable/ic_launcher"
+24-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:22:9-45
+25        android:label="@string/app_name"
+25-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:23:9-41
+26        android:theme="@android:style/Theme.DeviceDefault" >
+26-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:24:9-59
+27        <activity
+27-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:26:9-33:20
+28            android:name="com.ntut.activity.MeetingControlActivity"
+28-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:27:13-68
+29            android:label="@string/app_name"
+29-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:28:13-45
+30            android:screenOrientation="landscape" >
+30-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:28:46-83
+31            <intent-filter>
+31-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:29:13-32:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:30:17-69
+32-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:30:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:31:17-77
+34-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:31:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:34:9-37:20
+38            android:name="com.ntut.activity.MeetingMainActivity"
+38-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:35:13-65
+39            android:label="@string/app_name"
+39-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:36:13-45
+40            android:screenOrientation="landscape" >
+40-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:36:46-83
+41        </activity>
+42
+43        <receiver android:name="com.ntut.utils.MeetingReceiver" >
+43-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:38:9-42:20
+43-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:38:19-64
+44            <intent-filter>
+44-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:39:13-41:29
+45                <action android:name="android.intent.action.BOOT_COMPLETED" />
+45-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:40:17-79
+45-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:40:25-76
+46            </intent-filter>
+47        </receiver>
+48
+49        <service android:name="com.ntut.service.MeetingService" />
+49-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:44:9-75
+49-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:44:18-64
+50        <service android:name="com.ntut.service.NetworkService" />
+50-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:45:9-75
+50-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:45:18-64
+51        <!-- activity android:name="com.ntut.activity.MainActivity"></activity -->
+52        <activity android:name="com.ntut.web.WebViewerActivity" />
+52-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:47:9-76
+52-->C:\Users\peteryu\StudioProjects\MeetingSystem\app\src\main\AndroidManifest.xml:47:19-64
+53    </application>
+54
+55</manifest>

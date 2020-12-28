@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0"> 
+    <meta name="viewport" content="width=1280, initial-scale=1, maximum-scale=1"/>
+    <title></title>
+    <script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui-1.10.1.custom.min.js"></script>
+    <script type="text/javascript" src="./js/jQuery.bubbletip-1.0.6.js"></script>
+    <link type="text/css" rel="stylesheet" href="./js/bubbletip/bubbletip.css" />
+    <link href="css/ui-lightness/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="css/score.css" />
+</head>
+<body class="content">
+    <form id="form" action="" method="post" >
+    <div id="vote">
+    </div>
+    <div class="button_center">
+        <input id="sendButton" type="submit" value="送出" /></div>
+    <div id="comformDialog" title="確認">
+       <b><font color="red">請少勾選一項理由</font></b> 
+    </div>
+    <div id="dialog" title="送出確認">
+        <table border="0" class="score_table">
+            <tr>
+                <td>
+                    您所輸入的總分為:<span id="score"><font color="red"></font>
+                </td>
+            </tr>
+            <tr>
+                <td id="error">
+                    您的輸入不符合分數範圍，將視為<b><font color="red">廢票</font></b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    是否確認送出?
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="reason_dialog" title="教師升等未過理由">
+        <table border="0" id="reason_table">
+        </table>
+    </div>
+    <div id="reason_ck" title="警告">
+        請敘明具體事實！
+    </div>
+    </form>
+    <script type="text/javascript" src="./js/score.js"></script>
+</body>
+</html>

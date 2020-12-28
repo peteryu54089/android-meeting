@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@color/item_2" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/menu_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:cacheColorHint="#FFFFFF"
+            android:choiceMode="singleChoice"
+            android:divider="@drawable/list_divider"
+            android:dividerHeight="1dip"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="false" >
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/idLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="36sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/border"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:longClickable="true" >
+
+        <TextView
+            android:id="@+id/randomTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:clickable="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingTop="1dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FF0000"
+            android:textSize="28dp" />
+
+        <ImageView
+            android:id="@+id/lockImageView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/background_dark"
+            android:clickable="false"
+            android:maxHeight="32sp"
+            android:maxWidth="32sp"
+            android:src="@drawable/lock"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
